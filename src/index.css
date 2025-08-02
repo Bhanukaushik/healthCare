@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+/* Global Reset */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Font and base colors */
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #f9fafb; /* Tailwind’s gray-100 */
+  color: #1f2937; /* Tailwind’s gray-800 */
+}
+
+/* Optional: Base styling for links and buttons */
+a {
+  @apply text-blue-600 hover:underline;
+}
+
+button {
+  @apply rounded px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 transition;
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "doctorId": 1,
+    "patientName": "Alice",
+    "email": "alice@example.com",
+    "dateTime": "2025-08-05T10:00"
+  },
+  {
+    "doctorId": 2,
+    "patientName": "Bob",
+    "email": "bob@example.com",
+    "dateTime": "2025-08-06T14:00"
+  }
+]
